@@ -71,6 +71,26 @@ p {
   text-align: center;
 }
 
+.card {
+  padding: 1rem;
+  background-color: hsl(0, 0%, 98%);
+  border-top: 0.3rem solid;
+  border-radius: 0.3rem;
+}
+.card .card-title {
+  font-size: 1.25rem;
+}
+.card .card-content {
+  font-size: 0.94rem;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  text-align: left;
+  margin-block-end: 2rem;
+}
+.card img {
+  margin-inline-start: auto;
+}
+
 body {
   background-color: hsl(0, 0%, 98%);
   min-height: 100vh;

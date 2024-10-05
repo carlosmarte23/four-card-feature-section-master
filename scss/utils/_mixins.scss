@@ -1,0 +1,9 @@
+@import "variables";
+$border-radius: 0.3rem;
+
+@mixin card-style($border-color) {
+  padding: 1rem;
+  background-color: $color-neutral-100;
+  border-top: $border-radius solid $border-color;
+  border-radius: $border-radius;
+}
