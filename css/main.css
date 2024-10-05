@@ -40,7 +40,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 0.94rem;
   color: hsl(229, 6%, 66%);
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 h1 {
@@ -110,11 +110,12 @@ p {
   font-size: 1.25rem;
 }
 .card .card-content {
-  font-size: 0.94rem;
+  font-size: 0.88rem;
   font-weight: 400;
   color: hsl(229, 6%, 66%);
   text-align: left;
   margin-block-end: 2rem;
+  line-height: 1.7;
 }
 .card img {
   margin-inline-start: auto;

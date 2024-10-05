@@ -21,11 +21,12 @@
   }
 
   .card-content {
-    font-size: $font-size-400;
+    font-size: $font-size-300;
     font-weight: $font-weight-regular;
     color: $color-neutral-400;
     text-align: left;
     margin-block-end: 2rem;
+    line-height: $line-height-base-mobile;
   }
 
   img {
