@@ -4,21 +4,34 @@ body {
   font-family: $font-base;
   font-size: $font-size-400;
   color: $color-neutral-400;
-  line-height: $line-height-base;
+  line-height: $line-height-base-mobile;
 }
 
 h1 {
-  font-size: $font-size-900;
+  font-size: $font-size-600;
   font-weight: $font-weight-light;
+  margin-block-start: 2.7rem;
+  text-align: center;
+  letter-spacing: $letter-spacing-heading-mobile;
+  line-height: $line-height-heading-mobile;
+
+  span {
+    display: block;
+    font-weight: $font-weight-bold;
+  }
 }
 
 h2 {
   font-size: $font-size-600;
   font-weight: $font-weight-bold;
-  color: $color-neutral-900;
 }
 
 h1,
 h2 {
-  line-height: $line-height-heading;
+  color: $color-neutral-900;
+  line-height: $line-height-heading-mobile;
+}
+
+p {
+  text-align: center;
 }
