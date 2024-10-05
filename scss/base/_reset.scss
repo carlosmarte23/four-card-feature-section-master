@@ -1,0 +1,37 @@
+/* Box Sizing Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a basic background and text color */
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove link underlines */
+a {
+  text-decoration: none;
+}
+
+/* Set images to be responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
