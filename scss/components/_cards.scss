@@ -1,6 +1,21 @@
 .card {
   @include card-style(null); //Default border color
 
+  &.supervisor {
+    @include card-style($color-cyan);
+  }
+
+  &.team-builder {
+    @include card-style($color-red);
+  }
+
+  &.karma {
+    @include card-style($color-orange);
+  }
+
+  &.calculator {
+    @include card-style($color-blue);
+  }
   .card-title {
     font-size: $font-size-500;
   }
