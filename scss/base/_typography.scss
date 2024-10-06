@@ -41,8 +41,9 @@ h2 {
 
 p {
   text-align: center;
+  max-width: 34ch;
 
   @media screen and (min-width: 768px) {
-    max-width: 55ch;   
+    max-width: 55ch;
   }
 }
