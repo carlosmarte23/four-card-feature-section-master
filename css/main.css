@@ -181,4 +181,19 @@ body {
   .layout-grid > .calculator {
     grid-area: calculator;
   }
+}
+
+.attribution {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: hsl(229, 6%, 66%);
+}
+.attribution a {
+  color: hsl(234, 12%, 34%);
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+.attribution a:hover {
+  color: hsl(229, 6%, 66%);
 }/*# sourceMappingURL=main.css.map */

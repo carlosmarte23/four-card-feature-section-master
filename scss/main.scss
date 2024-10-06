@@ -53,3 +53,20 @@ body {
     }
   }
 }
+
+.attribution {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: $color-neutral-400;
+
+  a {
+    color: $color-neutral-900;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $color-neutral-400;
+    }
+  }
+}
