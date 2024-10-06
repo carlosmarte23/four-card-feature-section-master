@@ -86,7 +86,7 @@ p {
 }
 
 .card {
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: hsl(0, 0%, 98%);
   border-top: 0.4rem solid;
   border-radius: 0.4rem;
@@ -94,7 +94,7 @@ p {
   max-width: 20rem;
 }
 .card.supervisor {
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: hsl(0, 0%, 98%);
   border-top: 0.4rem solid hsl(180, 62%, 55%);
   border-radius: 0.4rem;
@@ -102,7 +102,7 @@ p {
   max-width: 20rem;
 }
 .card.team-builder {
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: hsl(0, 0%, 98%);
   border-top: 0.4rem solid hsl(0, 78%, 62%);
   border-radius: 0.4rem;
@@ -110,7 +110,7 @@ p {
   max-width: 20rem;
 }
 .card.karma {
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: hsl(0, 0%, 98%);
   border-top: 0.4rem solid hsl(34, 97%, 64%);
   border-radius: 0.4rem;
@@ -118,7 +118,7 @@ p {
   max-width: 20rem;
 }
 .card.calculator {
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: hsl(0, 0%, 98%);
   border-top: 0.4rem solid hsl(212, 86%, 64%);
   border-radius: 0.4rem;
