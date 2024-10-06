@@ -196,4 +196,9 @@ body {
 }
 .attribution a:hover {
   color: hsl(229, 6%, 66%);
+}
+@media (min-width: 768px) {
+  .attribution br {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

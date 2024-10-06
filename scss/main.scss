@@ -69,4 +69,9 @@ body {
       color: $color-neutral-400;
     }
   }
+  @media (min-width: 768px) {
+    br {
+      display: none;
+    }
+  }
 }
